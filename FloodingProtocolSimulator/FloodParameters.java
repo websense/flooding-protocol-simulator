@@ -3,7 +3,7 @@ public class FloodParameters {
     // SIMULATOR TOPOLOGY CONSTANTS
 
     //number of nodes in the network
-	public static int maxNodes = 400;
+	public static int maxNodes = 25*25; //400;
 	//for regular topology, maxNodes is expected to be a perfect square
     public static int maxXnodes = (int)Math.sqrt(maxNodes);
     public static int maxYnodes = maxXnodes;
